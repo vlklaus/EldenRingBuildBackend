@@ -1,0 +1,6 @@
+@EldenRingBuildBackend_HostAddress = http://localhost:5019
+
+GET {{EldenRingBuildBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
