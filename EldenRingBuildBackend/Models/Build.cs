@@ -59,6 +59,9 @@ public partial class Build
     public string? Spell11 { get; set; }
 
     public string? Spell12 { get; set; }
+
+    public string Classes { get; set; }
+
     [JsonIgnore]
     public virtual ICollection<Created> Createds { get; set; } = new List<Created>();
     [JsonIgnore]
