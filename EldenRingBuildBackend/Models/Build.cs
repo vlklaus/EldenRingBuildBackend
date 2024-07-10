@@ -25,9 +25,6 @@ public partial class Build
     public string? ArmorLegs { get; set; }
 
     public string? AshOfWar { get; set; }
-
-    public string? Shield { get; set; }
-
     public string? Talisman1 { get; set; }
 
     public string? Talisman2 { get; set; }
@@ -60,7 +57,7 @@ public partial class Build
 
     public string? Spell12 { get; set; }
 
-    public string Classes { get; set; }
+    public string? Classes { get; set; }
 
     [JsonIgnore]
     public virtual ICollection<Created> Createds { get; set; } = new List<Created>();

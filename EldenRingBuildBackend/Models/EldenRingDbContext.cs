@@ -49,9 +49,6 @@ public partial class EldenRingDbContext : DbContext
             entity.Property(e => e.BuildName)
                 .HasMaxLength(255)
                 .HasColumnName("buildName");
-            entity.Property(e => e.Shield)
-                .HasMaxLength(255)
-                .HasColumnName("shield");
             entity.Property(e => e.Spell1)
                 .HasMaxLength(255)
                 .HasColumnName("spell1");
