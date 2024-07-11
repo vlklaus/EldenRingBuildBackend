@@ -106,6 +106,9 @@ public partial class EldenRingDbContext : DbContext
             entity.Property(e => e.Weapon2)
                 .HasMaxLength(255)
                 .HasColumnName("weapon2");
+            entity.Property(e => e.Classes)
+                 .HasMaxLength(255)
+                 .HasColumnName("Classes");
         });
 
         modelBuilder.Entity<Created>(entity =>
