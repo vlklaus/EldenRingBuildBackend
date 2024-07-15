@@ -59,6 +59,8 @@ public partial class Build
 
     public string? Classes { get; set; }
 
+    public string? BuildCreator { get; set; }
+
     [JsonIgnore]
     public virtual ICollection<Created> Createds { get; set; } = new List<Created>();
     [JsonIgnore]
