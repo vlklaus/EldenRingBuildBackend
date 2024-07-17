@@ -8,7 +8,7 @@ builder.Services.AddCors(options =>
             //replace localhost with yours            
             //also add your deployed website
             policy.WithOrigins("http://localhost:4200",
-                                "https://wonderful-smoke-086676b1e.5.azurestaticapps.net").AllowAnyMethod().AllowAnyHeader();
+                                "https://red-mud-0abcd890f.5.azurestaticapps.net").AllowAnyMethod().AllowAnyHeader();
         });
 });
 // Add services to the container.
